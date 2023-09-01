@@ -2,7 +2,7 @@
 This tutorial gives you a brief insight into Rails 7. 
 
 ## Prerequisite
-For this tutorial we need Ruby 3.x, so if you already have Ruby 3.x you can skip these steps and start directly with step **Create Rails 7 app**
+For this tutorial we need Ruby 3.x, so if you already have Ruby 3.x you can skip these steps and start directly with step [Create Rails 7 app](#create-rails-7-app)
 - gcc
 - make
 - zlib1g-dev
