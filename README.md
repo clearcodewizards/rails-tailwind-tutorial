@@ -81,7 +81,7 @@ This will let the rails server listen on all the network interfaces, which is no
 
 # Tutorial links to get you started with Rails
 - [RailsGuides - Getting Started](https://guides.rubyonrails.org/getting_started.html)
-- [Routing](https://guides.rubyonrails.org/routing.html)
+- [RailsGuides - Routing](https://guides.rubyonrails.org/routing.html)
 - [Stimulus](https://blog.effectussoftware.com/stimulus-in-rails/)
 - [Assets](docs/assets.md) WIP
 - [MVC or actually RCMHV](docs/RCMHV.md) WIP
