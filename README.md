@@ -79,9 +79,9 @@ web: bin/rails server -b 0.0.0.0 -p 3000
 ```
 This will let the rails server listen on all the network interfaces, which is not advised from a security standpoint.
 
-# TOC
-Lets start doing Rails things :)
-- [Routing](docs/routing.md)
-- [Assets](docs/assets.md)
-- [MVC or actually RCMHV](docs/RCMHV.md)
-- [Stimulus](docs/stimulus.md)
+# Tutorial links to get you started with Rails
+- [RailsGuides - Getting Started](https://guides.rubyonrails.org/getting_started.html)
+- [Routing](https://guides.rubyonrails.org/routing.html)
+- [Stimulus](https://blog.effectussoftware.com/stimulus-in-rails/)
+- [Assets](docs/assets.md) WIP
+- [MVC or actually RCMHV](docs/RCMHV.md) WIP
