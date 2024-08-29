@@ -41,15 +41,15 @@ $ brew install rbenv ruby-build
 
 ### Initialize
 Run rbenv init and put it into your rc file to have rbenv initialized whenever you start a new shell.
+
+#### Debian/Ubuntu
 ```
 $ .rbenv/bin/rbenv init
 ```
 
-For instance with bash:
+#### MacOS
 ```
-$ vi .bashrc
-...snip...
-eval "$($HOME/.rbenv/bin/rbenv init - bash)"
+$ rbenv init
 ```
 
 ## Ruby 3.3.1
