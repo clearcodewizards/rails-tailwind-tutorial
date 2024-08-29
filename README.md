@@ -70,6 +70,11 @@ Bootstrap your Rails 7 app with propshaft (new asset pipeline) and css tailwind.
 $ rails new --asset-pipeline=propshaft --css=tailwind blog
 ```
 
+If you use an editor that supports devcontainer like vscode you can create your rails app with a devcontainer.
+```
+$ rails new --asset-pipeline=propshaft --css=tailwind --devcontainer blog
+```
+
 ### Rails development environment
 We will be using foreman for our development environment so we can make changes to Rails which will be directly active.
 Add foreman in Gemfile under group **:development**
