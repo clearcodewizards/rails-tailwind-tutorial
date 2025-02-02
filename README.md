@@ -104,6 +104,15 @@ web: bin/rails server -b 0.0.0.0 -p 3000
 ```
 This will let the rails server listen on all the network interfaces, which is not advised from a security standpoint.
 
+## Rubocop Ruby linter
+From Rails 7.2+ rubocop-rails-omakase is used to have better linter defaults for Rails.
+
+But there is one default which contradict Ruby so my suggestion is to override it in .rubocop.yml:
+```
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+```
+
 # Tutorial links to get you started with Rails
 - [RailsGuides - Getting Started](https://guides.rubyonrails.org/getting_started.html)
 - [MVC or actually RCMHV](docs/RCMHV.md)
