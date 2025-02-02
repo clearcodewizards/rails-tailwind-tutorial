@@ -1,8 +1,8 @@
-# Rails 7 with tailwind css tutorial
-This tutorial gives you a brief insight into Rails 7. 
+# Rails 8 with tailwind css tutorial
+This tutorial gives you a brief insight into Rails 8. 
 
 ## Prerequisite
-For this tutorial we need Ruby 3.x, so if you already have Ruby 3.x you can skip these steps and start directly with step [Create Rails 7 app](#create-rails-7-app)
+For this tutorial we need Ruby 3.3.x or higher, so if you already have Ruby 3.3.x you can skip these steps and start directly with step [Create Rails 8 app](#create-rails-8-app)
 
 ### Debian/Ubuntu
 - gcc
@@ -52,27 +52,27 @@ $ .rbenv/bin/rbenv init
 $ rbenv init
 ```
 
-## Ruby 3.3.1
-Install Ruby 3.3.1 and set it as the default:
+## Ruby 3.3.x
+Install Ruby 3.3.x or higher and set it as the default:
 ```
-$ rbenv install 3.3.1
-$ rbenv global 3.3.1
+$ rbenv install 3.3.7
+$ rbenv global 3.3.7
 ```
 
-## Create rails 7 app
+## Create rails 8 app
 First you need to install the rails gem
 ```
-$ gem install rails -v 7.2.0
+$ gem install rails -v 8.0.1
 ```
 
-Bootstrap your Rails 7 app with propshaft (new asset pipeline) and css tailwind. Propshaft will be the default in Rails 8 so lets start using it right now.
+Bootstrap your Rails 8 app with propshaft (new asset pipeline) and css tailwind.
 ```
-$ rails new --asset-pipeline=propshaft --css=tailwind blog
+$ rails new --css=tailwind store
 ```
 
 If you use an editor that supports devcontainer like vscode you can create your rails app with a devcontainer.
 ```
-$ rails new --asset-pipeline=propshaft --css=tailwind --devcontainer blog
+$ rails new --css=tailwind --devcontainer store
 ```
 
 ### Rails development environment
@@ -92,7 +92,7 @@ Now run bundle install and we are ready to go.
 ~/blog $ bundle install
 ```
 
-## Start the rails 7 app
+## Start the rails 8 app
 Just run bin/dev and you should get the default Rails page.
 ```
 ~/blog $ bundle exec bin/dev
